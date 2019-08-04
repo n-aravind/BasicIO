@@ -5,6 +5,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class Main {
+    // TODO GP comment: remove the throws IOException and InterruptedException
     public static void main(String[] args) throws IOException, InterruptedException {
         SimpleDateFormat dateFormat = new SimpleDateFormat("MM-dd-yyy HH:mm:ss");
         BufferedWriter writer = null;
